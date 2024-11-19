@@ -1,0 +1,17 @@
+h1 {
+    color: red;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    background-color:bisque;
+}
+
+h2 {
+    color:blueviolet;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+}
