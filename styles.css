@@ -1,10 +1,22 @@
-h1 {
-    color: red;
-    font-family: 'Courier New', Courier, monospace;
+#index-page {
+    font-family: 'Roboto', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
 }
 
 body {
     background-color:bisque;
+}
+
+h1 {
+    color: #d23669;
+    font-size: 3rem;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 h2 {
@@ -12,6 +24,35 @@ h2 {
     font-family: 'Courier New', Courier, monospace;
 }
 
-p {
-    font-family: 'Times New Roman', Times, serif;
+#recipe-list {
+    background-color: #ffffff;
+    border: 2px solid #d23669;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 80%;
+    max-width: 600px;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin: 10px 0;
+}
+
+a {
+    text-decoration: none;
+    color: #d23669;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #751f45;
+    text-decoration: underline;
 }
